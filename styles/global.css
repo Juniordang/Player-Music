@@ -1,0 +1,95 @@
+@import url('./top.css');
+@import url('./middle.css');
+@import url('./bottom.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+    --moz-osx-font-smoothing: grayscale;
+}
+:root {
+    font-size: 62.5%;
+    font-family: 'Poppins', Arial, sans-serif;
+    --purple: #2A2141;
+    --white-gray: #E1E1E6;
+}
+body {
+    font-size: 1.6rem;
+    
+}
+button:hover {
+    cursor: pointer;
+}
+button {
+    background-color: transparent;
+    border: none;
+}
+ion-icon {
+    font-size: 2.8rem;
+    color: white;
+}
+ul li {
+    list-style: none;
+}
+.s-box-sound {
+    width: 60rem;
+    margin: auto;
+
+    display: grid;
+    grid-template-areas:
+        'left top top'
+        'left bottom bottom'
+    ; 
+    gap: 1.5rem;
+    margin-top: 7rem;
+    
+}
+.c-image {
+    width: 8.4rem;
+    height: 8.4rem;
+    border-radius: .6rem;
+}
+.c-box{
+    border-radius: .9rem;
+    background-color: var(--purple);
+}
+.c-box .top  img {
+    width: 8.4rem;
+    height: 8.4rem;
+}
+.c-box__middle {
+    grid-area: top;
+    height: 26.6rem;
+}
+.c-box__bottom {
+    grid-area: bottom;
+    height: 19.9rem;
+}
+.c-box__middle,.c-box__bottom {
+    width: 35.7rem;
+    padding: 2.9rem 2.9rem 3rem 2.9rem;
+}
+.c-box__middle .top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.c-box__middle .bottom {
+    margin-top: 2rem;
+}
+.c-box__middle .c-music-bar {
+    width: 30rem;
+
+}
+.c-box__middle .c-bar__small {
+    width: 27.5rem;
+}
+.c-box__bottom .top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.c-box__bottom .bottom {
+    margin-top: 1.5rem;
+}

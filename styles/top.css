@@ -1,0 +1,10 @@
+.c-box__top {
+    width: 26.6rem;
+    padding: 3.8rem;
+    grid-area: left;
+}
+.c-box__top > .c-image {
+    display: block;
+    width: 18.7rem;
+    height: 18.7rem;
+}
