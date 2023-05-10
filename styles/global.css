@@ -58,17 +58,14 @@ ul li {
     width: 8.4rem;
     height: 8.4rem;
 }
-.c-box__middle {
-    grid-area: top;
-    height: 26.6rem;
-}
-.c-box__bottom {
-    grid-area: bottom;
-    height: 19.9rem;
-}
 .c-box__middle,.c-box__bottom {
     width: 35.7rem;
     padding: 2.9rem 2.9rem 3rem 2.9rem;
+}
+/* box  */
+.c-box__middle {
+    grid-area: top;
+    height: 26.6rem;
 }
 .c-box__middle .top {
     display: flex;
@@ -84,6 +81,10 @@ ul li {
 }
 .c-box__middle .c-bar__small {
     width: 27.5rem;
+}
+.c-box__bottom {
+    grid-area: bottom;
+    height: 19.9rem;
 }
 .c-box__bottom .top {
     display: flex;
